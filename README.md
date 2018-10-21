@@ -2,9 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
 
+## Installing project
+
+Clone the repository `git clone https://github.com/RenatoRJF/angular-experiments.git` and into the project folder run `npm install` to install all needed dependencies. 
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. Run `ng serve -o` to open your browser automatically.
 
 ## Code scaffolding
 
