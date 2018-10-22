@@ -50,6 +50,7 @@ input {
 header a {
   font-size: 1.5em;
   color: #369;
+  text-transform: capitalize;
 }
 
 header span {

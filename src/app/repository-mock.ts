@@ -2,7 +2,6 @@ const repositories: Array<any> = [
   {
     "id": 24195339,
     "name": "angular",
-    "full_name": "angular/angular",
     "owner": {
       "login": "angular",
       "avatar_url": "https://avatars3.githubusercontent.com/u/139426?v=4",
@@ -16,7 +15,6 @@ const repositories: Array<any> = [
   {
     "id": 10270250,
     "name": "react",
-    "full_name": "facebook/react",
     "owner": {
       "login": "facebook",
       "avatar_url": "https://avatars3.githubusercontent.com/u/69631?v=4",
@@ -30,7 +28,6 @@ const repositories: Array<any> = [
   {
     "id": 11730342,
     "name": "vue",
-    "full_name": "vuejs/vue",
     "owner": {
       "login": "vuejs",
       "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4",
@@ -44,7 +41,6 @@ const repositories: Array<any> = [
   {
     "id": 5532320,
     "name": "polymer",
-    "full_name": "Polymer/polymer",
     "owner": {
       "login": "Polymer",
       "avatar_url": "https://avatars3.githubusercontent.com/u/2159051?v=4",
