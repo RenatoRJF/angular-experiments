@@ -44,7 +44,7 @@ input {
 }
 
 .repo-content {
-  width: calc(100% - 80px);
+  width: calc(100% - 90px);
 }
 
 header a {
