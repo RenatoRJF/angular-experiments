@@ -1,0 +1,21 @@
+<ul class="repos-list">
+  <li *ngFor="let repository of repos" class="repo">
+    <img class="repo-image" [src]="repository.owner.avatar_url" alt="avatar" />
+
+    <div class="repo-content">
+      <header>
+        <a [href]="repository.owner.html_url">{{repository.name}}</a>
+        <span>{{repository.forks}} forks</span>
+      </header>
+
+      <p class="description">{{repository.description}}</p>
+
+      <div class="dates">
+        <span>
+          <strong>Created at</strong> {{repository.created_at | date: "yyyy-MM-dd"}}</span>
+        <span>
+          <strong>Updated at</strong> {{repository.created_at | date: "yyyy-MM-dd"}}</span>
+      </div>
+    </div>
+  </li>
+</ul>

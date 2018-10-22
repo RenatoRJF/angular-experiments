@@ -1,4 +1,6 @@
-const repositories: Array<any> = [
+import { Repository } from "./repository";
+
+const repositories: Repository[] = [
   {
     "id": 24195339,
     "name": "angular",
