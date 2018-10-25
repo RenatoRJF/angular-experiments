@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Repository } from 'src/app/repository';
-import repositories from 'src/app/repository-mock';
+import { RepositoryService } from './repository.service';
 
 @Component({
   selector: 'app-root',
@@ -13,14 +13,18 @@ export class AppComponent {
   inputValue: string = '';
   repos: Repository[] = [];
 
+  constructor(private repositoryService: RepositoryService) {}
+
   ngOnInit() {
-    this.repos = repositories;
+    // this.repos = this.repositoryService.getAllRepositories();;
   }
 
   onEnterEvent(value: string, event: KeyboardEvent) {
     if (event.keyCode === this.ENTER_CODE) {
-      console.log(value);
       this.inputValue = '';
+      this.repositoryService
+        .getRepository(value)
+        .subscribe(data => this.repos.push(data));
     }
   }
 }
